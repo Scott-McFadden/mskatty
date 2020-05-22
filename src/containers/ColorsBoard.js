@@ -1,5 +1,5 @@
 import React from 'react';
-import {Row, Container} from 'react-bootstrap';
+import {Row, } from 'react-bootstrap';
 import SwatchItem from "../components/SwatchItem";
 import SearchCriteriaEntry from "../components/SearchCriteriaEntry";
 

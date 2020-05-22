@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Card, Badge, Col, Row } from 'react-bootstrap';
+import {  Badge, Col, Row } from 'react-bootstrap';
 
 class SwatchItem extends React.Component
 {
