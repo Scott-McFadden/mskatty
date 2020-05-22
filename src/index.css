@@ -5,9 +5,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: red;
+  background-color: lavenderblush;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+a:link, a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkred;
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkred;
+  text-decoration: underline;
+}
+
+
+
+a.nav-link
+{
+  background-color: #dc3545!important;
+  color: white;
+}
+a.nav-link:active {
+  color: yellow;
+}
+a.nav-link:hover {
+  color: gold;
+}
+.navbar-brand {
+  color: white!important;
+}
+
+.react-icons {
+  vertical-align: middle;
+}
+
+.cardWidth250 {
+  width: 250px;
+
+}
+.center {
+  horiz-align: center;
 }

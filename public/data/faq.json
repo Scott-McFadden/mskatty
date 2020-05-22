@@ -1,0 +1,27 @@
+{
+
+  "faqs": [
+
+    {
+      "question": "What sizes are there?",
+      "answer": [
+        "### There two basic sizes. ",
+        "- Adult",
+        "- Child"
+      ]
+    },
+    {
+      "question": "How do I use for my mask?",
+      "answer": [
+        "* Insert a paper towel or coffee filter for extra protection",
+        "* Place Mask over your face covering the nose and mouth",
+        "* Bend the metal nose piece over the bridge of your nose (if equipped)",
+        "* Avoid touching the outside of the mask",
+        "* Wash mask after each use",
+        "* Do not bleach unless you want the colors to change",
+        "* Your mask does not replace a surgical or N95 mask"
+      ]
+    }
+  ]
+}
+
