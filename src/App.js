@@ -22,6 +22,7 @@ class App extends React.Component {
         this.handleAboutUsClose = this.handleAboutUsClose.bind(this);
         this.publishSearchResults = this.publishSearchResults.bind(this);
         this.removeSearchCriteria = this.removeSearchCriteria.bind(this);
+        this.IsSelected = this.IsSelected.bind(this);
 
         //this.state = {};
     }
@@ -38,7 +39,7 @@ class App extends React.Component {
         this.swatches = response.data.swatches || [];
 
         this.selectSwatches(true);
-        this.selectOptions = this.collectSelectOptions();
+        this.collectSelectOptions();
         this.forceUpdate();
 
     }
@@ -46,44 +47,57 @@ class App extends React.Component {
     selectSwatches(isNew) {
 
         if (!this.swatches || this.swatches.length ===0 ) {
-            this.props.setSelectedSwatches([]);
+            this.selectedSwatches=[];
         }
-        else if (this.selectedCats.length === 0  )
+        else if (this.props.searchCriteria.length === 0  )
         {
-            if (this.swatches)
-            this.props.setSelectedSwatches(_.cloneDeep(this.swatches));
+            this.selectedSwatches =_.cloneDeep(this.swatches);
         }
         else {
             if (isNew)
-                this.props.setSelectedSwatches(this.swatches.filter(item => this.IsSelected(item)));
+                this.selectedSwatches=this.swatches.filter((i) => {
+                    return this.IsSelected(i);
+                } );
             else
-                this.props.setSelectedSwatches(this.props.selectedSwatches.filter(item => this.IsSelected(item)));
+                this.selectedSwatches=this.props.selectedSwatches.filter(this.IsSelected);
         }
     }
 
     IsSelected(item) {
         for (var a = 0; a < item.cat.length; a++)
-            for (var b = 0; b < this.selectedCats.length; b++)
-                if (item.cat[a] === this.selectedCats[b]) {
+            for (var b = 0; b < this.props.searchCriteria.length; b++)
+                if (item.cat[a] === this.props.searchCriteria[b]) {
                     return true;
                 }
         return false;
 
     }
 
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if(prevProps.searchCriteria !== this.props.searchCriteria)
+        {
+            this.selectSwatches(true);
+            this.forceUpdate();
+        }
+
+    }
+
     collectSelectOptions() {
-        let found = false;
-        for (var a = 0; a < this.swatches; a++) {
-            for (var b = 0; b < this.swatches[a].cat.length; a++) {
-                found = true;
-                for (var c = 0; c < this.selectOptions.length && !found; a++) {
+        let notFound = false;
+        for (var a = 0; a < this.swatches.length; a++) {
+            for (var b = 0; b < this.swatches[a].cat.length; b++) {
+                notFound = true;
+                for (var c = 0; c < this.selectOptions.length &&  notFound; c++) {
                     if (this.selectOptions[c] === this.swatches[a].cat[b])
-                        found = false;
+                        notFound = false;
                 }
-                if (found)
+                if (notFound) {
                     this.selectOptions.push(this.swatches[a].cat[b]);
+                }
+
             }
         }
+
 
     }
 
@@ -98,7 +112,7 @@ class App extends React.Component {
 
                     <Header
                         handleChange={this.handleDisplayNavChange}
-                        searchOptions={this.searchOptions}
+                        searchOptions={this.selectOptions}
                         publishSearchResults={this.publishSearchResults}
                         showSearch={this.IsSet("cloth")}
                     />
@@ -106,7 +120,7 @@ class App extends React.Component {
                         {  this.IsSet("FAQ") && <FaqBoard   /> }
                         {  this.IsSet("cloth") && <ColorsBoard
                             searchOptions={this.props.searchCriteria}
-                            swatches={this.props.selectedSwatches}
+                            swatches={this.selectedSwatches}
                             handleSearchCriteriaFilterRemove={this.removeSearchCriteria}
                         />}
                         {  this.IsSet("styles") && <div>styles</div>}
@@ -146,8 +160,9 @@ class App extends React.Component {
 
     publishSearchResults(values)
     {
-        console.log("values", values);
+        console.log("values", values, this.props);
         this.props.addSearchCriteria(values);
+        this.selectSwatches(true);
         //this.setState({searchCriteria: values })
     }
 
@@ -168,8 +183,7 @@ App.propTypes = {
 
 function mapStateToProps(state)
 {
-    const mystate =
-      {
+    return {
 
         selectedSwatches: state.searchCriteriaReducer.selectedSwatches ,
         displayPanel: state.searchCriteriaReducer.displayPanel,
@@ -177,7 +191,7 @@ function mapStateToProps(state)
         searchCriteria: state.searchCriteriaReducer.searchCriteria ,
     };
 
-    return mystate;
+
 }
 
 function mapDispatchToProps(dispatch){

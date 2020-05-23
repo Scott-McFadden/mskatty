@@ -28,9 +28,11 @@ class ColorsBoard extends React.Component {
         for(var a=0; a<this.props.searchOptions.length; a++)
         {
             ret.push(<SearchCriteriaEntry key={this.props.searchOptions}
-                name={this.props.SearchOptions[a]}
+                name={this.props.searchOptions[a]}
                 handleClose={this.removeFromSearchList} />)
         }
+
+        return ret;
     }
 
     removeFromSearchList(name) {
