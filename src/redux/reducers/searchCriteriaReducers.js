@@ -14,7 +14,7 @@ export default function searchCriteriaReducer(state = initalState, action) {
     let newState = {};
 
 
-    console.log("action: ", action )
+  // console.log("action: ", action )
     switch(action.type) {
 
         case "SET_DISPLAY_PANEL":

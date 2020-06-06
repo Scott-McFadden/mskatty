@@ -11,7 +11,9 @@ import * as searchCriteriaActions from "./redux/actions/searchCriteriaActions";
 import PropTypes from 'prop-types';
 import axios from "axios";
 import _ from "lodash";
-
+import groupedOptions from "./data/swatchCats";
+import MaskStyles from "./containers/MaskStyles";
+import OrderForm from "./containers/OrderForm";
 
 class App extends React.Component {
 
@@ -31,15 +33,15 @@ class App extends React.Component {
     swatches = [];
     selectedSwatches = [];
     selectedCats = [];
-    selectOptions = [];
+    selectOptions = groupedOptions;
 
     async componentDidMount() {
         let response = await axios.get("/data/swatches.json");
-        console.log(response.data);
+       // console.log(response.data);
         this.swatches = response.data.swatches || [];
 
         this.selectSwatches(true);
-        this.collectSelectOptions();
+
         this.forceUpdate();
 
     }
@@ -82,25 +84,6 @@ class App extends React.Component {
 
     }
 
-    collectSelectOptions() {
-        let notFound = false;
-        for (var a = 0; a < this.swatches.length; a++) {
-            for (var b = 0; b < this.swatches[a].cat.length; b++) {
-                notFound = true;
-                for (var c = 0; c < this.selectOptions.length &&  notFound; c++) {
-                    if (this.selectOptions[c] === this.swatches[a].cat[b])
-                        notFound = false;
-                }
-                if (notFound) {
-                    this.selectOptions.push(this.swatches[a].cat[b]);
-                }
-
-            }
-        }
-
-
-    }
-
     removeSearchCriteria(name){
         this.props.removeSearchCriteria(name);
     }
@@ -123,25 +106,32 @@ class App extends React.Component {
                             swatches={this.selectedSwatches}
                             handleSearchCriteriaFilterRemove={this.removeSearchCriteria}
                         />}
-                        {  this.IsSet("styles") && <div>styles</div>}
-                        {  this.IsSet("order") && <div>order</div>}
+                        {  this.IsSet("styles") && <MaskStyles />}
+                        {  this.IsSet("order") && <OrderForm/>}
                         {  this.IsSet("disclaimer") && <DisclaimerBoard />}
                         <AboutUsModel
                             show={this.IsSet('contact')}
                             handleClose={this.handleAboutUsClose}/>
 
                     </Container>
-
+                {  this.IsSet("none") && <div    >
+                    <img src="/images/mskattylogo.png"  height="auto" width="60%" style={{
+                        display: "block",
+                        marginLeft: "auto",
+                        marginRight: "auto",
+                        marginTop: "50px"}}  alt="logo"/>
+<p />
+                </div>}
             </div>
         );
     }
 
      handleDisplayNavChange(key)
     {
-        console.log("props before navchange", this.props);
+    //    console.log("props before navchange", this.props);
         this.props.setDisplayPanel(key) ;
        //console.log("key:", key, this.props.oldDisplayPanel, this.props.displayPanel);
-        console.log("props after navchange", this.props);
+    //    console.log("props after navchange", this.props);
 
     }
 

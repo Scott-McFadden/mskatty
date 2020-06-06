@@ -1,5 +1,4 @@
 import React from 'react';
-import {Row, } from 'react-bootstrap';
 import SwatchItem from "../components/SwatchItem";
 import SearchCriteriaEntry from "../components/SearchCriteriaEntry";
 
@@ -13,9 +12,12 @@ class ColorsBoard extends React.Component {
         return (
             <div>
                 <h1>Swatches, Colors and Patterns</h1>
-                <Row>{this.displaySearchCriteria()}</Row>
-                <div className="container-fluid row">
+                <h4>{this.props.swatches.length} Swatches to Choose From</h4>
+
+                <div className="container-fluid mt-3">
+                    <div className="row">
                     {this.displaySwatches()}
+                    </div>
                 </div>
             </div>
         );

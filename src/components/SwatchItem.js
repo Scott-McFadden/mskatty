@@ -5,9 +5,11 @@ class SwatchItem extends React.Component
 {
     render()
     {
+
+        //style={{ width: '250px!important' }}
         return (
-        <div className="col col-sm-auto" style={{ width: '250px!important' }} >
-        <div className="card" style={{ width: '250px!important' }} key="card1">
+        <div className="col col250"  >
+        <div className="card"  >
             <img className="card-img-top"
                      src={"/swatches/" +this.props.item.name + "_thumb.jpg"}
                      style={{ width: '200px', marginLeft: "25px", marginTop: "5px" }}

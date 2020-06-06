@@ -1,844 +1,704 @@
 {
   "swatches": [
-  {
-    "name": "DSC_0006",
-    "addDate": "5/9/2020",
-    "desc": "light blue plaid",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["blue", "plaid", "mens"]
-  },
-  {
-    "name": "DSC_0009",
-    "addDate": "5/9/2020",
-    "desc": "purple two tone design",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["purple", "design"]
-  },
-  {
-    "name": "DSC_0011",
-    "addDate": "5/9/2020",
-    "desc": "blue with black background with blue net overlay",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["blue", "black", "design"]
-  },
-  {
-    "name": "DSC_0015",
-    "addDate": "5/9/2020",
-    "desc": "light blue solid",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["blue", "solid"]
-  },
-  {
-    "name": "DSC_0017",
-    "addDate": "5/9/2020",
-    "desc": "red and white heart patchwork",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["red", "white", "hearts", "patchwork", "strawberry"]
-  },
-  {
-    "name": "DSC_0020",
-    "addDate": "5/9/2020",
-    "desc": "sofia the first on white ",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["purple", "disney", "sofia", "girls", "licensed"]
-  },
-  {
-    "name": "DSC_0025",
-    "addDate": "5/9/2020",
-    "desc": "purple polka dot",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["purple", "polka", "dot"]
-  },
-  {
-    "name": "DSC_0027",
-    "addDate": "5/9/2020",
-    "desc": "shopkins patchwork",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["shopkins", "patchwork", "licensed"]
-  },
-  {
-    "name": "DSC_0030",
-    "addDate": "5/9/2020",
-    "desc": "shopkins random pictures",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["shopkins", "random", "licensed"]
-  },
-  {
-    "name": "DSC_0031",
-    "addDate": "5/9/2020",
-    "desc": "flower braid on pastel green",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["flower", "braid", "vines", "orange", "pink", "blue"]
-  },
-  {
-    "name": "DSC_0034",
-    "addDate": "5/9/2020",
-    "desc": "cat in the hat on light blue",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["cat in the hat", "dr", "suess", "licenced", "blue"]
-  },
-  {
-    "name": "DSC_0038",
-    "addDate": "5/9/2020",
-    "desc": "toy story on white",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["white", "disney", "toy story", "woody", "buzz", "licensed"]
-  },
-  {
-    "name": "DSC_0039",
-    "addDate": "5/9/2020",
-    "desc": "green with white polka dot",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["green", "polka", "dot"]
-  },
-  {
-    "name": "DSC_0040",
-    "addDate": "5/9/2020",
-    "desc": "white with green polka dot",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["green", "polka", "dot"]
-  },
-  {
-    "name": "DSC_0043",
-    "addDate": "5/9/2020",
-    "desc": "color paw print on black",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["paw", "pet", "black", "colorful"]
-  },
-  {
-    "name": "DSC_0044",
-    "addDate": "5/9/2020",
-    "desc": "peanuts easter green comic",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "comic", "green", "easter", "peanuts", "snoopy", "charlie", "pig pen"]
-  },
-  {
-    "name": "DSC_0045",
-    "addDate": "5/9/2020",
-    "desc": "hockey original six teams",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["NHL", "licensed", "black", "team", "sports", "chicago", "boston", "new york", "toronto", "detroit", "ch"]
-  },
-  {
-    "name": "DSC_0048",
-    "addDate": "5/9/2020",
-    "desc": "sailboat blueprint on while",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["boat", "sail", "white"]
-  },
-  {
-    "name": "DSC_0049",
-    "addDate": "5/9/2020",
-    "desc": "captain marel action patchwork",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["marvel", "captian", "licensed", "patchwork"]
-  },
-  {
-    "name": "DSC_0052",
-    "addDate": "5/9/2020",
-    "desc": "daniel tiger on white",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "daniel", "tiger", "white", "cats", "kids"]
-  },
-  {
-    "name": "DSC_0053",
-    "addDate": "5/9/2020",
-    "desc": "USAF - Air Force on black",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["USAF", "military",  "licensed", "flag", "black", "blue"]
-  },
-  {
-    "name": "DSC_0056",
-    "addDate": "5/9/2020",
-    "desc": "alabama red",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["bama", "sports", "licensed", "red", "alabama", "football"]
-  },
-  {
-    "name": "DSC_0057",
-    "addDate": "5/9/2020",
-    "desc": "minecraft grey",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["minecraft", "licensed", "elements"]
-  },
-  {
-    "name": "DSC_0059",
-    "addDate": "5/9/2020",
-    "desc": "cat heads, glasses and black background",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["glasses", "cats", "yarn", "black"]
-  },
-  {
-    "name": "DSC_0060",
-    "addDate": "5/9/2020",
-    "desc": "live your life in the meow",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["white", "glasses", "cat", "hearts" ]
-  },
-  {
-    "name": "DSC_0062",
-    "addDate": "5/9/2020",
-    "desc": "winne the pooh on white",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licenesed", "disney", "winnie", "egore", "piglet", "tigger", "white" ]
-  },
-  {
-    "name": "DSC_0063",
-    "addDate": "5/9/2020",
-    "desc": "sailboats on yellow",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["boat", "sail", "blue", "yellow"]
-  },
-  {
-    "name": "DSC_0065",
-    "addDate": "5/9/2020",
-    "desc": "red solid",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["red", "solid"]
-  },
-  {
-    "name": "DSC_0066",
-    "addDate": "5/9/2020",
-    "desc": "orange solid",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["orange", "solid"]
-  },
-  {
-    "name": "DSC_0067",
-    "addDate": "5/9/2020",
-    "desc": "rose polka dot",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["rose", "polka", "dot", "red"]
-  },
-  {
-    "name": "DSC_0069",
-    "addDate": "5/9/2020",
-    "desc": "winnie the pooh on light blue",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "disney", "blue", "winnie", "tigger"]
-  },
-  {
-    "name": "DSC_0072",
-    "addDate": "5/9/2020",
-    "desc": "yellow with large white flower",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["yellow", "white", "flower"]
-  },
-  {
-    "name": "DSC_0073",
-    "addDate": "5/9/2020",
-    "desc": "yellow polka dot",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["yellow", "polka", "dot"]
-  },
-  {
-    "name": "DSC_0074",
-    "addDate": "5/9/2020",
-    "desc": "yellow daffodil flowers on white",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["yellow", "flower", "white",  "daffodil"]
-  },
-  {
-    "name": "DSC_0075",
-    "addDate": "5/9/2020",
-    "desc": "yellow stripes on white with limes",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["yellow", "white", "limes"]
-  },
-  {
-    "name": "DSC_0076",
-    "addDate": "5/9/2020",
-    "desc": "pink superman logo",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["pink", "red", "licensed", "flowers", "superman"]
-  },
-  {
-    "name": "DSC_0077",
-    "addDate": "5/9/2020",
-    "desc": "red love hearts and flowers ",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["red", "love", "hearts", "flowers" ]
-  },
-  {
-    "name": "DSC_0080",
-    "addDate": "5/9/2020",
-    "desc": "mickey mouse in life saver on blue",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["mickey", "mouse", "blue", "boat", "disney", "licensed"]
-  },
-  {
-    "name": "DSC_0082",
-    "addDate": "5/9/2020",
-    "desc": "dogs and bones on black",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["pets", "dogs", "bones", "black"]
-  },
-  {
-    "name": "DSC_0083",
-    "addDate": "5/9/2020",
-    "desc": "charlie brown, snoopy, stars and stripes forever",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "peanuts", "snoopy", "charlie"]
-  },
-  {
-    "name": "DSC_0085",
-    "addDate": "5/9/2020",
-    "desc": "deep red solid",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["red", "solid"]
-  },
-  {
-    "name": "DSC_0086",
-    "addDate": "5/9/2020",
-    "desc": "dark orange solid",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["orange", "solid"]
-  },
-  {
-    "name": "DSC_0087",
-    "addDate": "5/9/2020",
-    "desc": "sailboats and lighthouse patchwork on blue",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["boats", "lighthouse", "blue", "patchwork"]
-  },
-  {
-    "name": "DSC_0093",
-    "addDate": "5/9/2020",
-    "desc": "tulips on white",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["flowers", "white", "spring"]
-  },
-  {
-    "name": "DSC_0094",
-    "addDate": "5/9/2020",
-    "desc": "tweety bird on blue",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "blue", "tweety", "bird"]
-  },
-  {
-    "name": "DSC_0095",
-    "addDate": "5/9/2020",
-    "desc": "cat heads on green and pink",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["cats", "green", "pink"]
-  },
-  {
-    "name": "DSC_0096",
-    "addDate": "5/9/2020",
-    "desc": "love with hearts on black",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["love", "hearts", "black", "polka", "dot"]
-  },
-  {
-    "name": "DSC_0098",
-    "addDate": "5/9/2020",
-    "desc": "colorful skull on black with flowers",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["skull", "flowers", "black"]
-  },
-  {
-    "name": "DSC_0099",
-    "addDate": "5/9/2020",
-    "desc": "pink solid",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["pink", "solid"]
-  },
-  {
-    "name": "DSC_0100",
-    "addDate": "5/9/2020",
-    "desc": "star wars - white on black",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "star wars", "black" ]
-  },
-  {
-    "name": "DSC_0101",
-    "addDate": "5/9/2020",
-    "desc": "pink striped wallpaper with apples",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["fruit", "pink", "red", "stripe", "apple"]
-  },
-  {
-    "name": "DSC_0102",
-    "addDate": "5/9/2020",
-    "desc": "orange polka dot with flowers",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["orange", "polka", "dot", "flower"]
-  },
-  {
-    "name": "DSC_0104",
-    "addDate": "5/9/2020",
-    "desc": "green frogs on light blue",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["frogs", "green", "blue"]
-  },
-  {
-    "name": "DSC_0106",
-    "addDate": "5/9/2020",
-    "desc": "joker and batman on blue",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "joker", "batman", "blue"]
+    {
+      "name": "dsd_0004",
+      "addDate": "5/23/2020",
+      "desc": "flag with eagles",
+      "cat": ["holiday", "flag", "patriotic"] },
+    {
+      "name": "dsd_0003",
+      "addDate": "5/23/2020",
+      "desc": "Predators 1",
+      "cat": ["sports", "predators", "yellow"]
+    },
+    {
+      "name": "dsd_0005",
+      "addDate": "5/23/2020",
+      "desc": "God Bless America",
+      "cat": ["holiday", "flag", "patriotic"]
+    },
+    {
+      "name": "dsd_0006",
+      "addDate": "5/23/2020",
+      "desc": "Mickey Mouse 1",
+      "cat": ["disney", "mickey"]
+    },
+    {
+      "name": "dsd_0007",
+      "addDate": "5/23/2020",
+      "desc": "Irish Mickey and Minnie 1",
+      "cat": ["disney", "mickey", "minnie", "holiday", "kids"]
+    },
+    {
+      "name": "dsd_0008",
+      "addDate": "5/23/2020",
+      "desc": "Purple Flowers 1",
+      "cat": ["flowers", "purple"]
+    },
+    {
+      "name": "dsd_0009",
+      "addDate": "5/23/2020",
+      "desc": "Flowers on light blue 1",
+      "cat": ["flowers", "blue"]
+    },
+    {
+      "name": "dsd_0010",
+      "addDate": "5/23/2020",
+      "desc": "Flowers on light blue 2",
+      "cat": ["flowers", "blue"]
+    },
+    {
+      "name": "dsd_0011",
+      "addDate": "5/23/2020",
+      "desc": "pink pinwheel",
+      "cat": ["pink", "flower"]
+    },
+    {
+      "name": "dsd_0012",
+      "addDate": "5/23/2020",
+      "desc": "Transformers 1",
+      "cat": ["transformers",   "white", "kids"]
+    },
+    {
+      "name": "dsd_0013",
+      "addDate": "5/23/2020",
+      "desc": "My Little Pony 1",
+      "cat": ["mlp",  "purple", "kids"]
+    },
+    {
+      "name": "dsd_0014",
+      "addDate": "5/23/2020",
+      "desc": "Mickey M on Red 1",
+      "cat": ["disney", "mickey", "red", "kids"]
+    },
+    {
+      "name": "dsd_0015",
+      "addDate": "5/23/2020",
+      "desc": "Outdoors, lodge 1",
+      "cat": ["outdoors", "white"]
+    },
+    {
+      "name": "dsd_0016",
+      "addDate": "5/23/2020",
+      "desc": "hearts on red 1",
+      "cat": ["hearts", "red"]
+    },
+    {
+      "name": "dsd_0017",
+      "addDate": "5/23/2020",
+      "desc": "red design 1",
+      "cat": ["red", "design"]
+    },
+    {
+      "name": "dsd_0018",
+      "addDate": "5/23/2020",
+      "desc": "Spring Stripes 1",
+      "cat": ["flowers", "blue", "stripe"]
+    },
+    {
+      "name": "dsd_0019",
+      "addDate": "5/23/2020",
+      "desc": "paisley on yellow 1",
+      "cat": ["paisley", "yellow", "design"]
+    },
+    {
+      "name": "DSC_0017",
+      "addDate": "5/23/2020",
+      "desc": "Hearts on patchwork ",
+      "cat": ["hearts", "red"]
+    },
+    {
+      "name": "DSC_0009",
+      "addDate": "5/23/2020",
+      "desc": "purple design 1",
+      "cat": ["design", "purple"]
+    },
+    {
+      "name": "DSC_0011",
+      "addDate": "5/23/2020",
+      "desc": "blue net pattern ",
+      "cat": ["design", "blue"]
+    },
+    {
+      "name": "DSC_0015",
+      "addDate": "5/23/2020",
+      "desc": "solid light blue 1",
+      "cat": ["solid", "blue"]
+    },
+    {
+      "name": "DSC_0020",
+      "addDate": "5/23/2020",
+      "desc": "Sofia the first, while and purple 1",
+      "cat": ["disney", "sofia", "white", "kids"]
+    },
+    {
+      "name": "DSC_0025",
+      "addDate": "5/23/2020",
+      "desc": "lavendar with white polka dots",
+      "cat": ["purple", "polka"]
+    },
+    {
+      "name": "DSC_0027",
+      "addDate": "5/23/2020",
+      "desc": "Shopkins 1",
+      "cat": ["shopkins", "white", "kids"]
+    },
+    {
+      "name": "DSC_0030",
+      "addDate": "5/23/2020",
+      "desc": "Shopkins 2",
+      "cat": ["shopkins", "white", "kids"]
+    },
+    {
+      "name": "DSC_0031",
+      "addDate": "5/23/2020",
+      "desc": "flowers on blue green",
+      "cat": ["flowers", "design"]
+    },
+    {
+      "name": "DSC_0034",
+      "addDate": "5/23/2020",
+      "desc": "Cat in the hat on blue 1",
+      "cat": ["suess", "catinthehat", "blue", "kids"]
+    },
+    {
+      "name": "DSC_0038",
+      "addDate": "5/23/2020",
+      "desc": "Toy Story on white 1",
+      "cat": ["disney", "toystory", "kids"]
+    },
+    {
+      "name": "DSC_0039",
+      "addDate": "5/23/2020",
+      "desc": "White Polka Dot on Green 1",
+      "cat": ["polka", "green"]
+    },
+    {
+      "name": "DSC_0040",
+      "addDate": "5/23/2020",
+      "desc": "Green polka dots on white 1",
+      "cat": ["polka", "white"]
+    },
+    {
+      "name": "DSC_0043",
+      "addDate": "5/23/2020",
+      "desc": "Rainbow paw prints on black 1",
+      "cat": ["paw", "black", "dog"]
+    },
+    {
+      "name": "DSC_0006",
+      "addDate": "5/23/2020",
+      "desc": "blue plaid 1",
+      "cat": ["blue", "plaid"]
+    },
+    {
+      "name": "DSC_0044",
+      "addDate": "5/23/2020",
+      "desc": "Peanuts, Easter on green 1",
+      "cat": ["peanuts", "holiday", "green", "kids"]
+    },
+    {
+      "name": "DSC_0045",
+      "addDate": "5/23/2020",
+      "desc": "Hockey original six on black 1",
+      "cat": ["sports", "black"]
+    },
+    {
+      "name": "DSC_0049",
+      "addDate": "5/23/2020",
+      "desc": "Captian Marval on White 1",
+      "cat": ["captmarval", "kids", "white"]
+    },
+    {
+      "name": "DSC_0052",
+      "addDate": "5/23/2020",
+      "desc": "Daniel Tiger on white 1",
+      "cat": ["danieltiger", "white"]
+    },
+    {
+      "name": "DSC_0053",
+      "addDate": "5/23/2020",
+      "desc": "US Air Force on black 1",
+      "cat": ["military", "black"]
+    },
+    {
+      "name": "DSC_0056",
+      "addDate": "5/23/2020",
+      "desc": "Alabama on red 1",
+      "cat": ["sports", "red"]
+    },
+    {
+      "name": "DSC_0057",
+      "addDate": "5/23/2020",
+      "desc": "Minecraft elements 1",
+      "cat": ["minecraft", "grey", "kids"]
+    },
+    {
+      "name": "DSC_0059",
+      "addDate": "5/23/2020",
+      "desc": "Peditors 1",
+      "cat": ["cats", "glasses", "black"]
+    },
+    {
+      "name": "DSC_0060",
+      "addDate": "5/23/2020",
+      "desc": "live your life in the meow",
+      "cat": ["cats", "blue"]
+    },
+    {
+      "name": "DSC_0062",
+      "addDate": "5/23/2020",
+      "desc": "Winne the poo and friends 1",
+      "cat": ["winnie", "white", "kids"]
+    },
+    {
+      "name": "DSC_0063",
+      "addDate": "5/23/2020",
+      "desc": "sailboats on yellow 1",
+      "cat": ["boats", "yellow"]
+    },
+    {
+      "name": "DSC_0065",
+      "addDate": "5/23/2020",
+      "desc": "Solid Red 1",
+      "cat": ["solid", "red"]
+    },
+    {
+      "name": "DSC_0066",
+      "addDate": "5/23/2020",
+      "desc": "solid orange 1",
+      "cat": ["solid", "orange"]
+    },
+    {
+      "name": "DSC_0067",
+      "addDate": "5/23/2020",
+      "desc": "pink polka dot",
+      "cat": ["polka", "pink"]
+    },
+    {
+      "name": "DSC_0069",
+      "addDate": "5/23/2020",
+      "desc": "Winnie the Poo 2",
+      "cat": ["winnie", "blue", "kids"]
+    },
+    {
+      "name": "DSC_0072",
+      "addDate": "5/23/2020",
+      "desc": "white flowers on yellow",
+      "cat": ["flowers", "yellow"]
+    },
+    {
+      "name": "DSC_0073",
+      "addDate": "5/23/2020",
+      "desc": "yellow polka dots",
+      "cat": ["polka", "yellow"]
+    },
+    {
+      "name": "DSC_0074",
+      "addDate": "5/23/2020",
+      "desc": "daffadils on white",
+      "cat": ["flowers", "white"]
+    },
+    {
+      "name": "DSC_0075",
+      "addDate": "5/23/2020",
+      "desc": "green limes on yellow stripes",
+      "cat": ["stripe", "yellow"]
+    },
+    {
+      "name": "DSC_0076",
+      "addDate": "5/23/2020",
+      "desc": "pink superman logo  ",
+      "cat": ["superman", "pink"]
+    },
+    {
+      "name": "DSC_0077",
+      "addDate": "5/23/2020",
+      "desc": "Love and Hearts on Red",
+      "cat": ["hearts", "red"]
+    },
 
-  },
-  {
-    "name": "DSC_0110",
-    "addDate": "5/9/2020",
-    "desc": "halloween patchwork",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["halloween", "holiday", "patchwork", "pumpkins", "ghosts"]
-  },
-  {
-    "name": "DSC_0111",
-    "addDate": "5/9/2020",
-    "desc": "littlest pet shop on lavender ",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["pet", "licensed", "littlest pet shop", "monkey", "purple"]
-  },
-  {
-    "name": "DSC_0115",
-    "addDate": "5/9/2020",
-    "desc": "littlest pet shop on pink with hearts",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["pet", "licensed", "littlest pet shop", "monkey", "pink", "hearts"]
-  },
-  {
-    "name": "DSC_0119",
-    "addDate": "5/9/2020",
-    "desc": "black solid",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["black", "solid"]
-  },
-  {
-    "name": "DSC_0120",
-    "addDate": "5/9/2020",
-    "desc": "Disney Princess montage",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["disney", "princess", "licensed"]
-  },
-  {
-    "name": "DSC_0121",
-    "addDate": "5/9/2020",
-    "desc": "federal blue solid",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["blue", "solid"]
-  },
-  {
-    "name": "DSC_0122",
-    "addDate": "5/9/2020",
-    "desc": "LSU on Purple",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["LSU", "purple", "sports", "tiger", "football", "licensed"]
-  },
-  {
-    "name": "DSC_0124",
-    "addDate": "5/9/2020",
-    "desc": "colorful butterflies on white",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["butterfly", "white"]
-  },
-  {
-    "name": "DSC_0125",
-    "addDate": "5/9/2020",
-    "desc": "green shamrocks on black",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["green", "irish", "shamrock", "black"]
-  },
-  {
-    "name": "DSC_0126",
-    "addDate": "5/9/2020",
-    "desc": "patchwork baby blanket mostly yellow",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["baby", "patchwork", "yellow"]
-  },
-  {
-    "name": "DSC_0128",
-    "addDate": "5/9/2020",
-    "desc": "duplicate tweety bird",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": [],
-    "active": false
-  },
-  {
-    "name": "DSC_0129",
-    "addDate": "5/9/2020",
-    "desc": "Gryffindor on black",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["harry potter", "gryffindor", "black", "licensed"]
-  },
-  {
-    "name": "DSC_0132",
-    "addDate": "5/9/2020",
-    "desc": "red plaid superhero",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["batman", "super woman", "wonder woman", "licensed", "plaid", "red"]
-  },
-  {
-    "name": "DSC_0134",
-    "addDate": "5/9/2020",
-    "desc": "pink princess disney",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "disney", "princess", "pink"]
-  },
-  {
-    "name": "DSC_0136",
-    "addDate": "5/9/2020",
-    "desc": "blue plaid with yellow sunflowers",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["blue", "flowers", "plaid"]
-  },
-  {
-    "name": "DSC_0138",
-    "addDate": "5/9/2020",
-    "desc": "unicorn - purple background",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["purple", "unicorn", "rainbow"]
-  },
-  {
-    "name": "DSC_0139",
-    "addDate": "5/9/2020",
-    "desc": "pink with white stars",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["pink", "stars"]
-  },
-  {
-    "name": "DSC_0140",
-    "addDate": "5/9/2020",
-    "desc": "orange solid",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["orange", "solid"]
-  },
-  {
-    "name": "DSC_0141",
-    "addDate": "5/9/2020",
-    "desc": "care bears on yellow",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "bears", "carebear", "yellow"]
-  },
-  {
-    "name": "DSC_0142",
-    "addDate": "5/9/2020",
-    "desc": "white and pink striped wall paper with frogs",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["white", "pink", "striped", "frogs"]
-  },
-  {
-    "name": "DSC_0144",
-    "addDate": "5/9/2020",
-    "desc": "harry potter on black and grey plaid",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "harry", "potter", "plaid", "black"]
+    {
+      "name": "DSC_0080",
+      "addDate": "5/23/2020",
+      "desc": "steamboat mickey",
+      "cat": ["disney", "mickey", "boats", "blue", "kids"]
+    },
+    {
+      "name": "DSC_0082",
+      "addDate": "5/23/2020",
+      "desc": "dogs and bones on black",
+      "cat": ["dog", "black"]
+    },
+    {
+      "name": "DSC_0083",
+      "addDate": "5/23/2020",
+      "desc": "snoopy and charlie brown",
+      "cat": ["peanuts", "charlie", "patriotic", "snoopy", "blue", "kids"]
+    },
+    {
+      "name": "DSC_0085",
+      "addDate": "5/23/2020",
+      "desc": "solid red 2",
+      "cat": ["solid", "red"]
+    },
+    {
+      "name": "DSC_0086",
+      "addDate": "5/23/2020",
+      "desc": "solid orange 2 (darker)",
+      "cat": ["solid", "orange"]
+    },
+    {
+      "name": "DSC_0087",
+      "addDate": "5/23/2020",
+      "desc": "boats and lighthouses on blue",
+      "cat": ["boat", "blue"]
+    },
+    {
+      "name": "DSC_0093",
+      "addDate": "5/23/2020",
+      "desc": "tulips on green",
+      "cat": ["flowers", "green"]
+    },
+    {
+      "name": "DSC_0095",
+      "addDate": "5/23/2020",
+      "desc": "cat faces",
+      "cat": ["cat", "design", "pink", "green"]
+    },
+    {
+      "name": "DSC_0098",
+      "addDate": "5/23/2020",
+      "desc": "colorful skulls on black ",
+      "cat": ["skull", "black"]
+    },
+    {
+      "name": "DSC_0099",
+      "addDate": "5/23/2020",
+      "desc": "solid pink 1",
+      "cat": ["solid", "pink"]
+    },
+    {
+      "name": "DSC_0100",
+      "addDate": "5/23/2020",
+      "desc": "Star Wars - black and white",
+      "cat": ["disney", "starwars", "black"]
+    },
+    {
+      "name": "DSC_0101",
+      "addDate": "5/23/2020",
+      "desc": "apples on pink stripes",
+      "cat": ["fruit", "stripe", "pink"]
+    },
+    {
+      "name": "DSC_0104",
+      "addDate": "5/23/2020",
+      "desc": "frogs on blue",
+      "cat": ["frog", "blue", "kids"]
+    },
+    {
+      "name": "DSC_0106",
+      "addDate": "5/23/2020",
+      "desc": "Batman 1",
+      "cat": ["batman", "blue", "kids"]
+    },
+    {
+      "name": "DSC_0110",
+      "addDate": "5/23/2020",
+      "desc": "Holloween design",
+      "cat": ["holiday", "orange", "design"]
+    },
+    {
+      "name": "DSC_0111",
+      "addDate": "5/23/2020",
+      "desc": "Littlest Pet Shop 1",
+      "cat": ["petshop", "purple", "kids"]
+    },
+    {
+      "name": "DSC_0115",
+      "addDate": "5/23/2020",
+      "desc": "Littlest Pet Shop 2",
+      "cat": ["petshop", "pink", "kids"]
+    },
+    {
+      "name": "DSC_0119",
+      "addDate": "5/23/2020",
+      "desc": "solid black 1",
+      "cat": ["solid", "black"]
+    },
+    {
+      "name": "DSC_0120",
+      "addDate": "5/23/2020",
+      "desc": "disney princesses",
+      "cat": ["princess", "disney", "kids"]
+    },
+    {
+      "name": "DSC_0121",
+      "addDate": "5/23/2020",
+      "desc": "solid blue 2",
+      "cat": ["solid", "blue"]
+    },
+    {
+      "name": "DSC_0122",
+      "addDate": "5/23/2020",
+      "desc": "LSU Tigers",
+      "cat": ["sports", "purple"]
+    },
+    {
+      "name": "DSC_0124",
+      "addDate": "5/23/2020",
+      "desc": "butterflys on white",
+      "cat": ["butterfly", "white"]
+    },
+    {
+      "name": "DSC_0125",
+      "addDate": "5/23/2020",
+      "desc": "green sharmrocks on black   1",
+      "cat": ["holiday", "flowers","black"]
+    },
+    {
+      "name": "DSC_0126",
+      "addDate": "5/23/2020",
+      "desc": "baby blanket ",
+      "cat": ["baby", "blue", "yellow"]
+    },
+    {
+      "name": "DSC_0129",
+      "addDate": "5/23/2020",
+      "desc": "Griffindor",
+      "cat": ["potter", "black", "kids"]
+    },
+    {
+      "name": "DSC_0132",
+      "addDate": "5/23/2020",
+      "desc": "Wonderwoman Batman and Supergirl",
+      "cat": [  "batman", "superman", "red", "kids"]
+    },
+    {
+      "name": "DSC_0138",
+      "addDate": "5/23/2020",
+      "desc": "unicorns on purple",
+      "cat": ["unicorn", "purple", "kids"]
+    },
+    {
+      "name": "DSC_0139",
+      "addDate": "5/23/2020",
+      "desc": "Stars on pink ",
+      "cat": ["star", "pink", "kids"]
+    },
+    {
+      "name": "DSC_0140",
+      "addDate": "5/23/2020",
+      "desc": "Solid Bright Red ",
+      "cat": ["solid", "red"]
+    },
+    {
+      "name": "DSC_0141",
+      "addDate": "5/23/2020",
+      "desc": "Carebears on yellow ",
+      "cat": ["carebear", "yellow", "kids"]
+    },
+    {
+      "name": "DSC_0142",
+      "addDate": "5/23/2020",
+      "desc": "frogs on pink stripes ",
+      "cat": ["frog", "pink", "stripe", "kids"]
+    },
+    {
+      "name": "DSC_0066",
+      "addDate": "5/23/2020",
+      "desc": " ",
+      "cat": ["solid", "orange"]
+    },
+    {
+      "name": "DSC_0144",
+      "addDate": "5/23/2020",
+      "desc": "Harry potter on black",
+      "cat": ["potter", "black"]
+    },
+    {
+      "name": "DSC_0145",
+      "addDate": "5/23/2020",
+      "desc": "Harry Potter Images on White",
+      "cat": ["potter", "white"]
+    },
+    {
+      "name": "DSC_0146",
+      "addDate": "5/23/2020",
+      "desc": "paws and bones on white ",
+      "cat": ["paw", "white", "dogs"]
+    },
+    {
+      "name": "DSC_0148",
+      "addDate": "5/23/2020",
+      "desc": "Cars",
+      "cat": ["cars", "blue", "kids"]
+    },
+    {
+      "name": "DSC_0152",
+      "addDate": "5/23/2020",
+      "desc": "Frozen on Purple ",
+      "cat": ["disney", "purple","frozen", "kids"]
+    },
+    {
+      "name": "DSC_0154",
+      "addDate": "5/23/2020",
+      "desc": "Preds 2 ",
+      "cat": ["sports", "predators", "yellow"]
+    },
+    {
+      "name": "DSC_0156",
+      "addDate": "5/23/2020",
+      "desc": "Vanderbuilt ",
+      "cat": ["sports", "gold"]
+    },
+    {
+      "name": "DSC_0157",
+      "addDate": "5/23/2020",
+      "desc": "Dogs on Red",
+      "cat": ["dogs", "red"]
+    },
+    {
+      "name": "DSC_0158",
+      "addDate": "5/23/2020",
+      "desc": "Frozen on black ",
+      "cat": ["frozen","disney", "kids","black"]
+    },
+    {
+      "name": "DSC_0160",
+      "addDate": "5/23/2020",
+      "desc": "Mercats ",
+      "cat": ["cat", "blue"]
+    },
+    {
+      "name": "DSC_0161",
+      "addDate": "5/23/2020",
+      "desc": "big dogs on red",
+      "cat": ["dog", "red"]
+    },
+    {
+      "name": "DSC_0162",
+      "addDate": "5/23/2020",
+      "desc": "cats at the beach",
+      "cat": ["cat", "gold"]
+    },
+    {
+      "name": "DSC_0166",
+      "addDate": "5/23/2020",
+      "desc": "dogs on black with flowers",
+      "cat": ["dog", "flowers", "black"]
+    },
+    {
+      "name": "DSC_0167",
+      "addDate": "5/23/2020",
+      "desc": "Mulan in flowers",
+      "cat": ["disney","flowers","princess","kids", "pink"]
+    }
+  ,
+    {
+      "name": "DSC_0169",
+      "addDate": "5/23/2020",
+      "desc": "Lion King Characters",
+      "cat": ["disney", "lion","orange","kids"]
+    },
+    {
+      "name": "DSC_0170",
+      "addDate": "5/23/2020",
+      "desc": "hot air balloons",
+      "cat": ["balloons", "blue"]
+    },
+    {
+      "name": "DSC_0172",
+      "addDate": "5/23/2020",
+      "desc": "cats on blue ",
+      "cat": ["glasses","cat", "blue"]
+    },
+    {
+      "name": "DSC_0173",
+      "addDate": "5/23/2020",
+      "desc": " gold, black and white balloons",
+      "cat": ["balloon","white", "gold", "black"]
+    },
+    {
+      "name": "DSC_0174",
+      "addDate": "5/23/2020",
+      "desc": "Traveling in America",
+      "cat": ["travel", "white", "holiday"]
+    },
+    {
+      "name": "DSC_0175",
+      "addDate": "5/23/2020",
+      "desc": "Dresses on a line",
+      "cat": ["dress", "blue"]
+    },
+    {
+      "name": "DSC_0176",
+      "addDate": "5/23/2020",
+      "desc": "Loony Toons Babys ",
+      "cat": ["looney", "baby", "blue", "tweety"]
+    },
+    {
+      "name": "DSC_0178",
+      "addDate": "5/23/2020",
+      "desc": "super heros ",
+      "cat": ["superhero", "grey", "kids"]
+    },
+    {
+      "name": "DSC_0179",
+      "addDate": "5/23/2020",
+      "desc": "snow white in flowers ",
+      "cat": ["snowwhite", "flowers", "disney", "kids", "princess", "yellow"]
+    },
+    {
+      "name": "DSC_0180",
+      "addDate": "5/23/2020",
+      "desc": "Nashville Sounds",
+      "cat": ["sports", "blue"]
+    },
+    {
+      "name": "DSC_0181",
+      "addDate": "5/23/2020",
+      "desc": "Science Girl ",
+      "cat": ["school", "black"]
+    },
+    {
+      "name": "DSC_0182",
+      "addDate": "5/23/2020",
+      "desc": "Snoopy and stripes",
+      "cat": ["snoopy", "holiday", "patriotic", "peanuts", "white", "kids"]
+    }
+  ,
+    {
+      "name": "DSC_0183",
+      "addDate": "5/23/2020",
+      "desc": "Flags and eagle ",
+      "cat": ["flag", "patriotic", "holiday", "blue", "red", "white"]
+    }
+  ,
+    {
+      "name": "DSC_0184",
+      "addDate": "5/23/2020",
+      "desc": "Predators 3  ",
+      "cat": ["sports", "predators", "yellow", "blue"]
+    },
+    {
+      "name": "DSC_0185",
+      "addDate": "5/23/2020",
+      "desc": "Pink flowers on white ",
+      "cat": ["flowers", "pink"]
+    },
+    {
+      "name": "DSC_0186",
+      "addDate": "5/23/2020",
+      "desc": "white flowers on black",
+      "cat": ["flowers", "black"]
+    },
+    {
+      "name": "DSC_0187",
+      "addDate": "5/23/2020",
+      "desc": "the great pumpkin patch",
+      "cat": ["peanuts", "holiday", "green"]
+    }
 
-  },
-  {
-    "name": "DSC_0145",
-    "addDate": "5/9/2020",
-    "desc": "Harry Potter character drawings",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "harry", "potter", "white"]
-  },
-  {
-    "name": "DSC_0146",
-    "addDate": "5/9/2020",
-    "desc": "bones and paws on white",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["pet", "white", "bones", "paw"]
-  },
-  {
-    "name": "DSC_0148",
-    "addDate": "5/9/2020",
-    "desc": "cars - mater lightning on blue",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "disney", "cars", "mater", "lightning", "blue"]
-  },
-  {
-    "name": "DSC_0152",
-    "addDate": "5/9/2020",
-    "desc": "frozen characters on purple",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "disney", "purple", "frozen"]
-  },
-  {
-    "name": "DSC_0154",
-    "addDate": "5/9/2020",
-    "desc": "predators on yellow",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "yellow", "nashville", "NHL", "hockey", "predators"]
-  },
-  {
-    "name": "DSC_0156",
-    "addDate": "5/9/2020",
-    "desc": " Vanderbilt Commodores on gold",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "vanderbuilt", "commodores", "college"]
-  },
-  {
-    "name": "DSC_0157",
-    "addDate": "5/9/2020",
-    "desc": "dogs on red",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["dogs", "bones", "red"]
-  },
-  {
-    "name": "DSC_0158",
-    "addDate": "5/9/2020",
-    "desc": "frozen characters on black",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "disney", "frozen", "black"]
-  },
-  {
-    "name": "DSC_0160",
-    "addDate": "5/9/2020",
-    "desc": "cat mermaids on blue",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["blue", "cats", "mermaids"]
-  },
-  {
-    "name": "DSC_0161",
-    "addDate": "5/9/2020",
-    "desc": "big dogs on red",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["red", "dogs", "flowers", "paw"]
-  },
-  {
-    "name": "DSC_0162",
-    "addDate": "5/9/2020",
-    "desc": "cats on the beach",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["cats", "sand", "beach"]
-  },
-  {
-    "name": "DSC_0166",
-    "addDate": "5/9/2020",
-    "desc": "dogs and paw print on black",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["dog", "black", "paw", "hearts"]
-  },
-  {
-    "name": "DSC_0167",
-    "addDate": "5/9/2020",
-    "desc": "mulan with cherry blossoms",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "disney", "mulan", "princess", "pink"]
-  },
-  {
-    "name": "DSC_0169",
-    "addDate": "5/9/2020",
-    "desc": "lion king character plaid",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["licensed", "disney", "lion king", "plaid"]
-  },
-  {
-    "name": "DSC_0170",
-    "addDate": "5/9/2020",
-    "desc": "the adventure begins balloons",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["balloons", "blue", "adventure"]
-  },
-  {
-    "name": "DSC_0172",
-    "addDate": "5/9/2020",
-    "desc": "cats with glasses on light blue",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["cats", "glasses", "blue"]
-  },
-  {
-    "name": "DSC_0173",
-    "addDate": "5/9/2020",
-    "desc": "silver, gold and black balloons",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["balloons", "silver", "gold", "black"]
-  },
-  {
-    "name": "DSC_0174",
-    "addDate": "5/9/2020",
-    "desc": "states and travel",
-    "cost": 10.00,
-    "masks": 1,
-    "raw": 7,
-    "cat": ["white", "states", "travel", "trailer"]
-  }
-]
+  ]
 }

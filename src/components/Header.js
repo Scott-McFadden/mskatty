@@ -1,27 +1,36 @@
 import React from 'react';
 import {Nav, Navbar} from 'react-bootstrap';
+import Select, {components } from 'react-select';
 
+const groupStyles = {
+    border: `2px dotted red`,
+    color: 'white',
+    background: "red",
+    padding: '5px 0px',
+    display: 'flex',
+};
+
+const GroupHeading = props => (
+    <div style={groupStyles}>
+        <components.GroupHeading {...props} />
+
+    </div>
+);
 
 class Header extends React.Component {
 
-    getSearchOptions()
-    {
-        let opts = [];
-        if (this.props.searchOptions){
-            for(var a=0; a<this.props.searchOptions.length; a++)
-            {
-                opts.push(<option key={this.props.searchOptions[a]} value={this.props.searchOptions[a]}>{this.props.searchOptions[a]}</option>);
-            }
-        }
-        return opts;
+
+    constructor(props) {
+        super(props);
+        this.handleOptionChange = this.handleOptionChange.bind(this);
     }
 
     handleOptionChange(event)
     {
-        let values=[];
-
-        for(var a=0; a<event.target.selectedOptions.length;a++)
-            values.push(event.target.selectedOptions[a].value);
+         let values=[];
+         if(event !== null)
+             for(var a=0; a<event.length;a++)
+                 values.push(event[a].value);
 
         this.props.publishSearchResults(values);
     }
@@ -29,6 +38,7 @@ class Header extends React.Component {
     selectedOptions = [];
 
     render() {
+
         return (
             <div>
                 <Navbar bg="danger" expand="lg" activekey="cloth"
@@ -43,13 +53,24 @@ class Header extends React.Component {
                              alt="Ms Katty"/>
                     </Navbar.Brand>
                     {this.props.showSearch &&
-                        <Nav.Item>
-                            Search:
-                            <select
+                        <Nav.Item style={{minWidth: "250px"}}>
 
-                                onChange={event => this.handleOptionChange(event)} multiple>
-                                {this.getSearchOptions()}
-                            </select>
+                            <Select
+                                    styles={{
+
+                                        groupHeading: base => ({
+                                            ...base,
+                                            flex: '1 1',
+                                            color: 'green',
+                                            margin: 0,
+                                        }),
+                                    }}
+                                    closeMenuOnSelect={false}
+                                    components={{GroupHeading}}
+                                    isMulti
+                                    options={this.props.searchOptions}
+                                    onChange={this.handleOptionChange}
+                            />
 
                         </Nav.Item>
                     }
@@ -95,6 +116,9 @@ class Header extends React.Component {
             this.props.handleChange("disclaimer");
         }
     }
+
+
+
 
 }
 

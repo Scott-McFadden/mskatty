@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 
 class DisclaimerBoard extends React.Component
 {
-    message = [];
+    message = "";
 
     async componentDidMount() {
         let response = await axios.get("/data/disclaimer.json");
