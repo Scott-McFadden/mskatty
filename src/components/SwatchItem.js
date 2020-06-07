@@ -1,40 +1,37 @@
 import React from 'react';
-import {  Badge, Col, Row } from 'react-bootstrap';
+import {  Badge } from 'react-bootstrap';
 
 class SwatchItem extends React.Component
 {
     render()
     {
-
-        //style={{ width: '250px!important' }}
         return (
-        <div className="col col250"  >
-        <div className="card"  >
-            <img className="card-img-top"
-                     src={"/swatches/" +this.props.item.name + "_thumb.jpg"}
-                     style={{ width: '200px', marginLeft: "25px", marginTop: "5px" }}
-                     height="132"
-                     alt={this.props.item.name}  />
-            <div className="card-body"  style={{ maxWidth: '250px!important' }}>
-                <h3 className="cardWidth250 center">
-                     {this.props.item.desc}
-                </h3>
-
-                    <Row >
-                        <Col>Name:</Col>
-                        <Col>{this.props.item.name}</Col>
-                    </Row>
-                    <Row >
-                        <Col>Date Added</Col>
-                        <Col>{this.props.item.addDate}</Col>
-                    </Row>
-                    <Row className="cardWidth250 center">
+            <div style={{boxShadow: "5px 5px 5px 5px #888888", backgroundColor: "white", width: "250px", marginRight: "10px", marginLeft: "10px", marginBottom: "50px", padding: "10px 25px", borderRadius: "4px", border: "solid 1px black"}}>
+                <div style={{display: "flex", justifyContent: "space-between"}}>
+                    <div><strong>Swatch ID</strong></div>
+                    <div><strong>Date Added</strong></div>
+                </div>
+                <div style={{display: "flex", justifyContent: "space-between"}}>
+                    <div>{this.props.item.name}</div>
+                    <div>{this.props.item.addDate}</div>
+                </div>
+                <div style={{
+                    width: "200px", 
+                    height: "200px", 
+                    backgroundImage:`url(${"/swatches/" + this.props.item.name + "_thumb.jpg"})`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat"
+                }}></div>
+                <div>
+                    <div><strong>Description:</strong></div>
+                    <div style={{margin: "5px 0", minHeight: "40px", fontSize:"20px", lineHeight:"20px"}}>{this.props.item.desc}</div>
+                    <div><strong>Tags:</strong></div>
+                    <div style={{minHeight: "40px"}}>
                         {this.getPills()}
-                    </Row>
-
+                    </div>
+                </div>
             </div>
-
-        </div></div>);
+        );
     }
 
     getPills()

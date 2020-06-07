@@ -13,10 +13,9 @@ class ColorsBoard extends React.Component {
             <div>
                 <h1>Swatches, Colors and Patterns</h1>
                 <h4>{this.props.swatches.length} Swatches to Choose From</h4>
-
-                <div className="container-fluid mt-3">
-                    <div className="row">
-                    {this.displaySwatches()}
+                <div style={{display: "flex", justifyContent: "space-around", width: "100%"}}>
+                    <div id="swatchContainer" style={{maxWidth: "1920px", display: "flex", flexWrap: "wrap", justifyContent: "space-around"}}>
+                        {this.displaySwatches()}
                     </div>
                 </div>
             </div>
