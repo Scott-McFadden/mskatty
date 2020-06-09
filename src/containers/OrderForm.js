@@ -16,8 +16,13 @@ class OrderForm extends React.Component
                 <li>Order confirmation and details will be provided.</li>
             </ol>
 
-
-
+            <h1>Prices</h1>
+            <div className="indent">
+            <p  >Normal Masks:   $5.00</p>
+            <p>Normal Premiumn Masks: $6.00 <br/>
+            (licensed materials and sports teams)</p>
+            <p>3D Masks: $8.00</p>
+            <p>3D Masks with Mouth Window: $10.00</p></div>
         </div>);
     }
 }
