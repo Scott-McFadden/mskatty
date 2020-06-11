@@ -9,7 +9,7 @@
       "name": "dsd_0003",
       "addDate": "5/23/2020",
       "desc": "Predators 1",
-      "cat": ["sports", "predators", "yellow"]
+      "cat": ["sports", "predators", "yellow", "prem"]
     },
     {
       "name": "dsd_0005",
@@ -21,13 +21,13 @@
       "name": "dsd_0006",
       "addDate": "5/23/2020",
       "desc": "Mickey Mouse 1",
-      "cat": ["disney", "mickey"]
+      "cat": ["disney", "mickey", "prem"]
     },
     {
       "name": "dsd_0007",
       "addDate": "5/23/2020",
       "desc": "Irish Mickey and Minnie 1",
-      "cat": ["disney", "mickey", "minnie", "holiday", "kids"]
+      "cat": ["disney", "mickey", "minnie", "holiday", "kids", "prem"]
     },
     {
       "name": "dsd_0008",
@@ -69,7 +69,7 @@
       "name": "dsd_0014",
       "addDate": "5/23/2020",
       "desc": "Mickey M on Red 1",
-      "cat": ["disney", "mickey", "red", "kids"]
+      "cat": ["disney", "mickey", "red", "kids", "prem"]
     },
     {
       "name": "dsd_0015",
@@ -129,7 +129,7 @@
       "name": "DSC_0020",
       "addDate": "5/23/2020",
       "desc": "Sofia the first, while and purple 1",
-      "cat": ["disney", "sofia", "white", "kids"]
+      "cat": ["disney", "sofia", "white", "kids", "prem"]
     },
     {
       "name": "DSC_0025",
@@ -141,13 +141,13 @@
       "name": "DSC_0027",
       "addDate": "5/23/2020",
       "desc": "Shopkins 1",
-      "cat": ["shopkins", "white", "kids"]
+      "cat": ["shopkins", "white", "kids", "prem"]
     },
     {
       "name": "DSC_0030",
       "addDate": "5/23/2020",
       "desc": "Shopkins 2",
-      "cat": ["shopkins", "white", "kids"]
+      "cat": ["shopkins", "white", "kids", "prem"]
     },
     {
       "name": "DSC_0031",
@@ -160,7 +160,7 @@
       "name": "DSC_0038",
       "addDate": "5/23/2020",
       "desc": "Toy Story on white 1",
-      "cat": ["disney", "toystory", "kids"]
+      "cat": ["disney", "toystory", "kids", "prem"]
     },
     {
       "name": "DSC_0039",
@@ -196,13 +196,13 @@
       "name": "DSC_0045",
       "addDate": "5/23/2020",
       "desc": "Hockey original six on black 1",
-      "cat": ["sports", "black"]
+      "cat": ["sports", "black", "prem"]
     },
     {
       "name": "DSC_0049",
       "addDate": "5/23/2020",
       "desc": "Captian Marval on White 1",
-      "cat": ["captmarval", "kids", "white"]
+      "cat": ["captmarval", "kids", "white", "prem"]
     },
     {
       "name": "DSC_0052",
@@ -220,7 +220,7 @@
       "name": "DSC_0056",
       "addDate": "5/23/2020",
       "desc": "Alabama on red 1",
-      "cat": ["sports", "red"]
+      "cat": ["sports", "red", "prem"]
     },
     {
       "name": "DSC_0057",
@@ -244,7 +244,7 @@
       "name": "DSC_0062",
       "addDate": "5/23/2020",
       "desc": "Winne the poo and friends 1",
-      "cat": ["winnie", "white", "kids"]
+      "cat": ["winnie", "white", "kids", "prem"]
     },
     {
       "name": "DSC_0063",
@@ -274,7 +274,7 @@
       "name": "DSC_0069",
       "addDate": "5/23/2020",
       "desc": "Winnie the Poo 2",
-      "cat": ["winnie", "blue", "kids"]
+      "cat": ["winnie", "blue", "kids", "prem"]
     },
     {
       "name": "DSC_0072",
@@ -317,7 +317,7 @@
       "name": "DSC_0080",
       "addDate": "5/23/2020",
       "desc": "steamboat mickey",
-      "cat": ["disney", "mickey", "boats", "blue", "kids"]
+      "cat": ["disney", "mickey", "boats", "blue", "kids", "prem"]
     },
     {
       "name": "DSC_0082",
@@ -329,7 +329,7 @@
       "name": "DSC_0083",
       "addDate": "5/23/2020",
       "desc": "snoopy and charlie brown",
-      "cat": ["peanuts", "charlie", "patriotic", "snoopy", "blue", "kids"]
+      "cat": ["peanuts", "charlie", "patriotic", "snoopy", "blue", "kids", "prem"]
     },
     {
       "name": "DSC_0085",
@@ -361,12 +361,7 @@
       "desc": "cat faces",
       "cat": ["cat", "design", "pink", "green"]
     },
-    {
-      "name": "DSC_0098",
-      "addDate": "5/23/2020",
-      "desc": "colorful skulls on black ",
-      "cat": ["skull", "black"]
-    },
+
     {
       "name": "DSC_0099",
       "addDate": "5/23/2020",
@@ -377,7 +372,7 @@
       "name": "DSC_0100",
       "addDate": "5/23/2020",
       "desc": "Star Wars - black and white",
-      "cat": ["disney", "starwars", "black"]
+      "cat": ["disney", "starwars", "black", "prem"]
     },
     {
       "name": "DSC_0101",
@@ -395,7 +390,7 @@
       "name": "DSC_0106",
       "addDate": "5/23/2020",
       "desc": "Batman 1",
-      "cat": ["batman", "blue", "kids"]
+      "cat": ["batman", "blue", "kids", "prem"]
     },
     {
       "name": "DSC_0110",
@@ -425,7 +420,7 @@
       "name": "DSC_0120",
       "addDate": "5/23/2020",
       "desc": "disney princesses",
-      "cat": ["princess", "disney", "kids"]
+      "cat": ["princess", "disney", "kids", "prem"]
     },
     {
       "name": "DSC_0121",
@@ -437,7 +432,7 @@
       "name": "DSC_0122",
       "addDate": "5/23/2020",
       "desc": "LSU Tigers",
-      "cat": ["sports", "purple"]
+      "cat": ["sports", "purple", "prem"]
     },
     {
       "name": "DSC_0124",
@@ -461,13 +456,13 @@
       "name": "DSC_0129",
       "addDate": "5/23/2020",
       "desc": "Griffindor",
-      "cat": ["potter", "black", "kids"]
+      "cat": ["potter", "black", "kids", "prem"]
     },
     {
       "name": "DSC_0132",
       "addDate": "5/23/2020",
       "desc": "Wonderwoman Batman and Supergirl",
-      "cat": [  "batman", "superman", "red", "kids"]
+      "cat": [  "batman", "superman", "red", "kids", "prem"]
     },
     {
       "name": "DSC_0138",
@@ -487,12 +482,7 @@
       "desc": "Solid Bright Red ",
       "cat": ["solid", "red"]
     },
-    {
-      "name": "DSC_0141",
-      "addDate": "5/23/2020",
-      "desc": "Carebears on yellow ",
-      "cat": ["carebear", "yellow", "kids"]
-    },
+
     {
       "name": "DSC_0142",
       "addDate": "5/23/2020",
@@ -502,20 +492,20 @@
     {
       "name": "DSC_0066",
       "addDate": "5/23/2020",
-      "desc": " ",
+      "desc": "Orange ",
       "cat": ["solid", "orange"]
     },
     {
       "name": "DSC_0144",
       "addDate": "5/23/2020",
       "desc": "Harry potter on black",
-      "cat": ["potter", "black"]
+      "cat": ["potter", "black", "prem"]
     },
     {
       "name": "DSC_0145",
       "addDate": "5/23/2020",
       "desc": "Harry Potter Images on White",
-      "cat": ["potter", "white"]
+      "cat": ["potter", "white", "prem"]
     },
     {
       "name": "DSC_0146",
@@ -527,25 +517,25 @@
       "name": "DSC_0148",
       "addDate": "5/23/2020",
       "desc": "Cars",
-      "cat": ["cars", "blue", "kids"]
+      "cat": ["cars", "blue", "kids", "prem"]
     },
     {
       "name": "DSC_0152",
       "addDate": "5/23/2020",
       "desc": "Frozen on Purple ",
-      "cat": ["disney", "purple","frozen", "kids"]
+      "cat": ["disney", "purple","frozen", "kids", "prem"]
     },
     {
       "name": "DSC_0154",
       "addDate": "5/23/2020",
       "desc": "Preds 2 ",
-      "cat": ["sports", "predators", "yellow"]
+      "cat": ["sports", "predators", "yellow", "prem"]
     },
     {
       "name": "DSC_0156",
       "addDate": "5/23/2020",
       "desc": "Vanderbuilt ",
-      "cat": ["sports", "gold"]
+      "cat": ["sports", "gold", "prem"]
     },
     {
       "name": "DSC_0157",
@@ -557,7 +547,7 @@
       "name": "DSC_0158",
       "addDate": "5/23/2020",
       "desc": "Frozen on black ",
-      "cat": ["frozen","disney", "kids","black"]
+      "cat": ["frozen","disney", "kids","black", "prem"]
     },
     {
       "name": "DSC_0160",
@@ -587,14 +577,14 @@
       "name": "DSC_0167",
       "addDate": "5/23/2020",
       "desc": "Mulan in flowers",
-      "cat": ["disney","flowers","princess","kids", "pink"]
+      "cat": ["disney","flowers","princess","kids", "pink", "prem"]
     }
   ,
     {
       "name": "DSC_0169",
       "addDate": "5/23/2020",
       "desc": "Lion King Characters",
-      "cat": ["disney", "lion","orange","kids"]
+      "cat": ["disney", "lion","orange","kids", "prem"]
     },
     {
       "name": "DSC_0170",
@@ -630,25 +620,25 @@
       "name": "DSC_0176",
       "addDate": "5/23/2020",
       "desc": "Loony Toons Babys ",
-      "cat": ["looney", "baby", "blue", "tweety"]
+      "cat": ["looney", "baby", "blue", "tweety", "prem"]
     },
     {
       "name": "DSC_0178",
       "addDate": "5/23/2020",
       "desc": "super heros ",
-      "cat": ["superhero", "grey", "kids"]
+      "cat": ["superhero", "grey", "kids", "prem"]
     },
     {
       "name": "DSC_0179",
       "addDate": "5/23/2020",
       "desc": "snow white in flowers ",
-      "cat": ["snowwhite", "flowers", "disney", "kids", "princess", "yellow"]
+      "cat": ["snowwhite", "flowers", "disney", "kids", "princess", "yellow", "prem"]
     },
     {
       "name": "DSC_0180",
       "addDate": "5/23/2020",
       "desc": "Nashville Sounds",
-      "cat": ["sports", "blue"]
+      "cat": ["sports", "blue", "prem"]
     },
     {
       "name": "DSC_0181",
@@ -660,7 +650,7 @@
       "name": "DSC_0182",
       "addDate": "5/23/2020",
       "desc": "Snoopy and stripes",
-      "cat": ["snoopy", "holiday", "patriotic", "peanuts", "white", "kids"]
+      "cat": ["snoopy", "holiday", "patriotic", "peanuts", "white", "kids", "prem"]
     }
   ,
     {
@@ -674,7 +664,7 @@
       "name": "DSC_0184",
       "addDate": "5/23/2020",
       "desc": "Predators 3  ",
-      "cat": ["sports", "predators", "yellow", "blue"]
+      "cat": ["sports", "predators", "yellow", "blue", "prem"]
     },
     {
       "name": "DSC_0185",
@@ -692,8 +682,139 @@
       "name": "DSC_0187",
       "addDate": "5/23/2020",
       "desc": "the great pumpkin patch",
-      "cat": ["peanuts", "holiday", "green"]
+      "cat": ["peanuts", "holiday", "green", "prem"]
+    },
+    {
+      "name": "DSJ_0001",
+      "addDate": "6/10/2020",
+      "desc": "Colorful hand prints",
+      "cat": ["new", "hands", "white", "colorful"]
+    } ,
+    {
+      "name": "DSJ_0003",
+      "addDate": "6/10/2020",
+      "desc": "Tonka Truck Engineer ",
+      "cat": ["new", "kids", "grey"]
+    },
+    {
+      "name": "DSJ_0005",
+      "addDate": "6/10/2020",
+      "desc": "Stormtrooper bunnys ",
+      "cat": ["new", "starwars", "white"]
+    },
+    {
+      "name": "DSJ_0006",
+      "addDate": "6/10/2020",
+      "desc": "My Little Pony on blue ",
+      "cat": ["new", "mlp", "blue", "kids"]
+    },
+    {
+      "name": "DSJ_0008",
+      "addDate": "6/10/2020",
+      "desc": "Pokemon 1",
+      "cat": ["new", "pokemon", "black", "kids", "prem"]
+    },
+    {
+      "name": "DSJ_0007",
+      "addDate": "6/10/2020",
+      "desc": "Harry Potter School Mascots ",
+      "cat": ["new", "potter", "plaid"]
+    },
+    {
+      "name": "DSJ_0009",
+      "addDate": "6/10/2020",
+      "desc": "Minions on white",
+      "cat": ["new", "minions", "white", "prem"]
+    },
+    {
+      "name": "DSJ_0010",
+      "addDate": "6/10/2020",
+      "desc": "Lady Bug - Black Polka Dots on Red",
+      "cat": ["new", "red", "polka"]
+    },
+    {
+      "name": "DSJ_0011",
+      "addDate": "6/10/2020",
+      "desc": "Sunflowers ",
+      "cat": ["new", "flowers", "white"]
+    },
+    {
+      "name": "DSJ_0012",
+      "addDate": "6/10/2020",
+      "desc": "Cars on blue",
+      "cat": ["new", "disney", "blue", "cars", "prem"]
+    },
+    {
+      "name": "DSJ_0016",
+      "addDate": "6/10/2020",
+      "desc": "Brown Flowers ",
+      "cat": ["new", "flowers", "brown"]
+    },
+    {
+      "name": "DSJ_0019",
+      "addDate": "6/10/2020",
+      "desc": "Royal Blue ",
+      "cat": ["new", "solid", "blue"]
+    },
+    {
+      "name": "DSJ_0020",
+      "addDate": "6/10/2020",
+      "desc": "Carary Yellow ",
+      "cat": ["new", "solid", "yellow"]
+    },
+    {
+      "name": "DSJ_0023",
+      "addDate": "6/10/2020",
+      "desc": "Color Puzzle ",
+      "cat": ["new", "colorful", "design"]
+    },
+    {
+      "name": "DSJ_0024",
+      "addDate": "6/10/2020",
+      "desc": "Anchors on Navy ",
+      "cat": ["new", "boats", "blue"]
+    },
+    {
+      "name": "DSJ_0026",
+      "addDate": "6/10/2020",
+      "desc": "Colorful Flowers on white ",
+      "cat": ["new", "flowers", "colorful", "white"]
+    },
+    {
+      "name": "DSJ_0027",
+      "addDate": "6/10/2020",
+      "desc": "Impressionist Boats ",
+      "cat": ["new", "boats","colorful", "white"]
+    },
+    {
+      "name": "DSJ_0029",
+      "addDate": "6/10/2020",
+      "desc": "Americana ",
+      "cat": ["new", "flag", "white", "patriotic", "holiday"]
+    },
+    {
+      "name": "DSJ_0031",
+      "addDate": "6/10/2020",
+      "desc": "Dogs on black ",
+      "cat": ["new", "dog", "black"]
+    },
+    {
+      "name": "DSJ_0032",
+      "addDate": "6/10/2020",
+      "desc": "Mardi Gras Masks ",
+      "cat": ["new", "holiday", "colorful", "black", "prem"]
+    },
+    {
+      "name": "DSJ_0033",
+      "addDate": "6/10/2020",
+      "desc": "White with Blue lines ",
+      "cat": ["new", "design", "white"]
+    },
+    {
+      "name": "DSJ_0034",
+      "addDate": "6/10/2020",
+      "desc": "Black with White Polka Dots ",
+      "cat": ["new", "polka", "white", "black"]
     }
-
   ]
 }

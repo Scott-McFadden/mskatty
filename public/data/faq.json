@@ -11,6 +11,15 @@
       ]
     },
     {
+    "question": "What style are there?",
+    "answer": [
+      "### Ms Katty Offers 3 Styles. ",
+      "- Original - Close fitting to your face.",
+      "- 3d -  Provides more space in front of your mouth.",
+      "- 3d Window - Provides a viewing window so that others can see your lips move."
+    ]
+    },
+    {
       "question": "How do I use for my mask?",
       "answer": [
         "* Insert a paper towel or coffee filter for extra protection",
@@ -20,6 +29,27 @@
         "* Wash mask after each use",
         "* Do not bleach unless you want the colors to change",
         "* Your mask does not replace a surgical or N95 mask"
+      ]
+    },
+    {
+      "question": "What is a 3D Mask?",
+      "answer": [
+        "* A 3D mask positions the front of the mask away from the lips providing more space",
+        "and comfort"
+      ]
+    },
+    {
+      "question": "What is a 3D Window Mask?",
+      "answer": [
+        "* This is basically a 3D mask with a window across the front panel so your lips can",
+        "be view.  This allows people to not only visual understand that you are talking, but ",
+        "those that are hearing impared to read your lips."
+      ]
+    },
+    {
+      "question": "Why do Premimum masks cost more?",
+      "answer": [
+        "* Premimum swatches are more expensive because the cost of materials is higher.  This is usually associated with Licencing costs for famos sports teams or characters"
       ]
     }
   ]

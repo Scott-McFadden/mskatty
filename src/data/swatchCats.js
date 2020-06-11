@@ -35,9 +35,10 @@ export const themeList = [
     { label: "Travel",  value: "travel"},
     { label: "Dresses",  value: "dress"},
     { label: "School",  value: "school"},
-    { label: "",  value: ""},
-    { label: "",  value: ""},
+    { label: "Hands",  value: "hands"},
+    { label: "Colorful",  value: "colorful"},
 
+    { label: "",  value: ""},
 ] ;
 
 export const charList = [
@@ -72,7 +73,8 @@ export const charList = [
     { label: "Ironman",  value: "ironman"},
     { label: "Superheros",  value: "superhero"},
     { label: "Snow White",  value: "snowwhite"},
-    { label: "",  value: ""},
+    { label: "Pokemon",  value: "pokemon"},
+    { label: "Minions",  value: "minions"},
     { label: "",  value: ""},
     { label: "",  value: ""},
 ];
@@ -87,13 +89,21 @@ export const colorsList =  [
     { label: "Black",  value: "black"},
     { label: "Orange",  value: "orange"},
     { label: "Gold",  value: "gold"},
-    { label: "",  value: ""},
+    { label: "Grey",  value: "grey"},
     { label: "",  value: ""},
     { label: "",  value: ""},
 ];
 
 
 const  groupedOptions = [
+    {
+        label: 'New',
+        value: "new"
+    },
+    {
+        label: 'Premimum',
+        value: "prem"
+    },
     {
         label: 'Colors',
         options: colorsList,

@@ -30,8 +30,8 @@ class MaskStyles extends React.Component
                             Style 1, Side View
                         </Card.Body>
                     </div>
-                </div>
-                <div className="row ">
+
+
                     <div style={{width:"260px"}}>
                         <img className="card-img-top"
                              height="250px"
@@ -53,8 +53,7 @@ class MaskStyles extends React.Component
                             Style 2, Side View
                         </Card.Body>
                     </div>
-                </div>
-                <div className="row ">
+
                     <div style={{width:"260px"}}>
                         <img className="card-img-top"
                              src={"/styles/style3front.jpg"}
@@ -96,6 +95,40 @@ class MaskStyles extends React.Component
                          alt="Kids Side View"  />
                     <Card.Body >
                         kids mask - side view
+                    </Card.Body>
+                </div>
+            </div>
+
+            <div className="row ">
+                <div style={{width:"260px"}}>
+                    <img className="card-img-top"
+                         src={"/styles/3dmaskimage.jpg"}
+                         height="250px"
+                         width="250px"
+                         alt="3d Mask"  />
+                    <Card.Body >
+                        3d Mask - provides more space between front of the mask and your lips.
+                    </Card.Body>
+                </div>
+
+                <div style={{width:"260px"}}>
+                    <img className="card-img-top"
+                         src={"/styles/window1.jpg"}
+                         height="250px"
+                         width="250px"
+                         alt="Window Mask"  />
+                    <Card.Body >
+                        Windows Mask Side - 3d Mask with Window so other can see you talk.
+                    </Card.Body>
+                </div>
+                <div style={{width:"260px"}}>
+                    <img className="card-img-top"
+                         src={"/styles/window2.jpg"}
+                         height="250px"
+                         width="250px"
+                         alt="Window Mask 2"  />
+                    <Card.Body >
+                        Windows Mask Front.
                     </Card.Body>
                 </div>
             </div>

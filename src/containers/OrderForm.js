@@ -19,10 +19,10 @@ class OrderForm extends React.Component
             <h1>Prices</h1>
             <div className="indent">
             <p  >Normal Masks:   $5.00</p>
-            <p>Normal Premiumn Masks: $6.00 <br/>
-            (licensed materials and sports teams)</p>
+            <p>Normal premimum Masks: $7.00 <br/>
+            (licensed materials and sports teams - has premimum tag on swatch)</p>
             <p>3D Masks: $8.00</p>
-            <p>3D Masks with Mouth Window: $10.00</p></div>
+            <p>3D Masks with Mouth Window: $15.00</p></div>
         </div>);
     }
 }
