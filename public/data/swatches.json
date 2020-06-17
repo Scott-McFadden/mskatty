@@ -140,17 +140,7 @@
       ],
       "id": 13
     },
-    {
-      "name": "DSC_0043",
-      "addDate": "5/23/2020",
-      "desc": "Rainbow paw prints on black 1",
-      "cat": [
-        "paw",
-        "black",
-        "dog"
-      ],
-      "id": 14
-    },
+
     {
       "name": "DSC_0044",
       "addDate": "5/23/2020",
@@ -281,16 +271,7 @@
       ],
       "id": 26
     },
-    {
-      "name": "DSC_0066",
-      "addDate": "5/23/2020",
-      "desc": "solid orange 1",
-      "cat": [
-        "solid",
-        "orange"
-      ],
-      "id": 27
-    },
+
     {
       "name": "DSC_0066",
       "addDate": "5/23/2020",
@@ -740,18 +721,7 @@
       ],
       "id": 68
     },
-    {
-      "name": "DSC_0148",
-      "addDate": "5/23/2020",
-      "desc": "Cars",
-      "cat": [
-        "cars",
-        "blue",
-        "kids",
-        "prem"
-      ],
-      "id": "P69"
-    },
+
     {
       "name": "DSC_0152",
       "addDate": "5/23/2020",
@@ -1094,13 +1064,14 @@
     {
       "name": "DSJ_0005",
       "addDate": "6/10/2020",
-      "desc": "Stormtrooper bunnys ",
+      "desc": "Stormtrooper",
       "cat": [
         "new",
         "starwars",
-        "white"
+        "white",
+        "prem"
       ],
-      "id": 99
+      "id": "P99"
     },
     {
       "name": "DSJ_0006",
@@ -1110,9 +1081,9 @@
         "new",
         "mlp",
         "blue",
-        "kids"
+        "kids", "prem"
       ],
-      "id": 100
+      "id": "P100"
     },
     {
       "name": "DSJ_0007",
@@ -1121,9 +1092,10 @@
       "cat": [
         "new",
         "potter",
-        "plaid"
+        "plaid",
+        "prem"
       ],
-      "id": 101
+      "id": "P101"
     },
     {
       "name": "DSJ_0008",
@@ -1243,7 +1215,7 @@
     {
       "name": "DSJ_0026",
       "addDate": "6/10/2020",
-      "desc": "Colorful Flowers on white ",
+      "desc": "Colorful Flowers on white  (Scarf)",
       "cat": [
         "new",
         "flowers",
@@ -1255,7 +1227,7 @@
     {
       "name": "DSJ_0027",
       "addDate": "6/10/2020",
-      "desc": "Impressionist Boats ",
+      "desc": "Impressionist Boats (Scarf)",
       "cat": [
         "new",
         "boats",
@@ -1445,19 +1417,7 @@
       ],
       "id": 129
     },
-    {
-      "name": "dsd_0014",
-      "addDate": "5/23/2020",
-      "desc": "Mickey M on Red 1",
-      "cat": [
-        "disney",
-        "mickey",
-        "red",
-        "kids",
-        "prem"
-      ],
-      "id": "P130"
-    },
+
     {
       "name": "dsd_0015",
       "addDate": "5/23/2020",
