@@ -21,7 +21,7 @@ class SwatchItem extends React.Component
                     <div><strong>Date Added</strong></div>
                 </div>
                 <div style={{display: "flex", justifyContent: "space-between"}}>
-                    <div>{this.props.item.id.toString()}</div>
+                    <div>{this.props.item.id}</div>
                     <div>{this.props.item.addDate}</div>
                 </div>
                 <div style={{
