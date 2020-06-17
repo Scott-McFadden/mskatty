@@ -14,9 +14,7 @@ export const themeList = [
     { label: "paisley",  value: "paisley"},
     { label: "Solid Color",  value: "solid"},
     { label: "Polka Dots",  value: "polka"},
-
     { label: "Dr. Suess",  value: "suess"},
-
     { label: "Dog",  value: "dog"},
     { label: "Paws",  value: "paws"},
     { label: "Plaid",  value: "plaid"},
@@ -37,7 +35,6 @@ export const themeList = [
     { label: "School",  value: "school"},
     { label: "Hands",  value: "hands"},
     { label: "Colorful",  value: "colorful"},
-
     { label: "",  value: ""},
 ] ;
 

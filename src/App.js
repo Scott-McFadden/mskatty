@@ -1,7 +1,6 @@
 import React from 'react';
 import {  Container} from 'react-bootstrap';
 import {connect } from 'react-redux';
-
 import Header from './components/Header'
 import FaqBoard from "./containers/faqboard";
 import AboutUsModel from "./components/AboutUsModal";
@@ -25,10 +24,8 @@ class App extends React.Component {
         this.publishSearchResults = this.publishSearchResults.bind(this);
         this.removeSearchCriteria = this.removeSearchCriteria.bind(this);
         this.IsSelected = this.IsSelected.bind(this);
-
         //this.state = {};
     }
-
 
     swatches = [];
     selectedSwatches = [];
@@ -39,15 +36,11 @@ class App extends React.Component {
         let response = await axios.get("/data/swatches.json");
        // console.log(response.data);
         this.swatches = response.data.swatches || [];
-
         this.selectSwatches(true);
-
         this.forceUpdate();
-
     }
 
     selectSwatches(isNew) {
-
         if (!this.swatches || this.swatches.length ===0 ) {
             this.selectedSwatches=[];
         }
@@ -72,7 +65,6 @@ class App extends React.Component {
                     return true;
                 }
         return false;
-
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
@@ -81,7 +73,6 @@ class App extends React.Component {
             this.selectSwatches(true);
             this.forceUpdate();
         }
-
     }
 
     removeSearchCriteria(name){
@@ -90,9 +81,7 @@ class App extends React.Component {
 
     render(){
         return (
-
             <div className="App">
-
                     <Header
                         handleChange={this.handleDisplayNavChange}
                         searchOptions={this.selectOptions}
@@ -112,25 +101,26 @@ class App extends React.Component {
                         <AboutUsModel
                             show={this.IsSet('contact')}
                             handleClose={this.handleAboutUsClose}/>
-
                     </Container>
-                {  this.IsSet("none") && <div    >
+                {
+                    this.IsSet("none") && <div    >
                     <img src="/images/mskattylogo.png"  height="auto" width="60%" style={{
                         display: "block",
                         marginLeft: "auto",
                         marginRight: "auto",
                         marginTop: "50px"}}  alt="logo"/>
-<p />
-                </div>}
+                    <p />
+                    </div>
+                }
             </div>
         );
     }
 
-     handleDisplayNavChange(key)
+    handleDisplayNavChange(key)
     {
     //    console.log("props before navchange", this.props);
         this.props.setDisplayPanel(key) ;
-       //console.log("key:", key, this.props.oldDisplayPanel, this.props.displayPanel);
+    //    console.log("key:", key, this.props.oldDisplayPanel, this.props.displayPanel);
     //    console.log("props after navchange", this.props);
 
     }
@@ -155,8 +145,6 @@ class App extends React.Component {
         this.selectSwatches(true);
         //this.setState({searchCriteria: values })
     }
-
-
 }
 
 App.propTypes = {
@@ -174,14 +162,11 @@ App.propTypes = {
 function mapStateToProps(state)
 {
     return {
-
         selectedSwatches: state.searchCriteriaReducer.selectedSwatches ,
         displayPanel: state.searchCriteriaReducer.displayPanel,
         oldDisplayPanel: state.searchCriteriaReducer.oldDisplayPanel,
         searchCriteria: state.searchCriteriaReducer.searchCriteria ,
     };
-
-
 }
 
 function mapDispatchToProps(dispatch){
