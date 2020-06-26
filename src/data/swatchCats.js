@@ -72,8 +72,8 @@ export const charList = [
     { label: "Snow White",  value: "snowwhite"},
     { label: "Pokemon",  value: "pokemon"},
     { label: "Minions",  value: "minions"},
-    { label: "",  value: ""},
-    { label: "",  value: ""},
+    { label: "Beauty and the Beast",  value: "beauty"},
+    { label: "Tinkerbell",  value: "tink"},
 ];
 export const colorsList =  [
     { label: "Purple",  value: "purple"},
